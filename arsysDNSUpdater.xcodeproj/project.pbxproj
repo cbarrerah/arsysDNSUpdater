@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077AB4B91D367D2F00F82DC4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AB4B81D367D2F00F82DC4 /* main.swift */; };
+		07A44F421D3807DC002CF563 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A44F411D3807DC002CF563 /* Just.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		077AB4B31D367D2F00F82DC4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		077AB4B51D367D2F00F82DC4 /* arsysDNSUpdater */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = arsysDNSUpdater; sourceTree = BUILT_PRODUCTS_DIR; };
+		077AB4B81D367D2F00F82DC4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		07A44F411D3807DC002CF563 /* Just.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077AB4B21D367D2F00F82DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077AB4AC1D367D2F00F82DC4 = {
+			isa = PBXGroup;
+			children = (
+				077AB4B71D367D2F00F82DC4 /* arsysDNSUpdater */,
+				077AB4B61D367D2F00F82DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077AB4B61D367D2F00F82DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077AB4B51D367D2F00F82DC4 /* arsysDNSUpdater */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077AB4B71D367D2F00F82DC4 /* arsysDNSUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				077AB4B81D367D2F00F82DC4 /* main.swift */,
+				07A44F411D3807DC002CF563 /* Just.swift */,
+			);
+			path = arsysDNSUpdater;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077AB4B41D367D2F00F82DC4 /* arsysDNSUpdater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077AB4BC1D367D2F00F82DC4 /* Build configuration list for PBXNativeTarget "arsysDNSUpdater" */;
+			buildPhases = (
+				077AB4B11D367D2F00F82DC4 /* Sources */,
+				077AB4B21D367D2F00F82DC4 /* Frameworks */,
+				077AB4B31D367D2F00F82DC4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arsysDNSUpdater;
+			productName = arsysDNSUpdater;
+			productReference = 077AB4B51D367D2F00F82DC4 /* arsysDNSUpdater */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077AB4AD1D367D2F00F82DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Carlos Barrera";
+				TargetAttributes = {
+					077AB4B41D367D2F00F82DC4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GD7TGKMRNY;
+						DevelopmentTeamName = "Carlos Barrera Hernandez";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 077AB4B01D367D2F00F82DC4 /* Build configuration list for PBXProject "arsysDNSUpdater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 077AB4AC1D367D2F00F82DC4;
+			productRefGroup = 077AB4B61D367D2F00F82DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077AB4B41D367D2F00F82DC4 /* arsysDNSUpdater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077AB4B11D367D2F00F82DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077AB4B91D367D2F00F82DC4 /* main.swift in Sources */,
+				07A44F421D3807DC002CF563 /* Just.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		077AB4BA1D367D2F00F82DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		077AB4BB1D367D2F00F82DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		077AB4BD1D367D2F00F82DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		077AB4BE1D367D2F00F82DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077AB4B01D367D2F00F82DC4 /* Build configuration list for PBXProject "arsysDNSUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077AB4BA1D367D2F00F82DC4 /* Debug */,
+				077AB4BB1D367D2F00F82DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077AB4BC1D367D2F00F82DC4 /* Build configuration list for PBXNativeTarget "arsysDNSUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077AB4BD1D367D2F00F82DC4 /* Debug */,
+				077AB4BE1D367D2F00F82DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077AB4AD1D367D2F00F82DC4 /* Project object */;
+}
